@@ -1,0 +1,25 @@
+td{         
+    background-color:#212F3D;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border-radius: 25%; */
+}
+a:link,a:visited{
+    color:whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+td:hover {
+    background-color: #5D6D7E;
+    cursor:pointer;
+  } 
+  td:active{
+      background-color: #5D6D7E;
+  }
+  a::first-letter{
+      color:orangered;
+  }

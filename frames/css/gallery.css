@@ -1,0 +1,44 @@
+.cent{
+    border-bottom: 8px groove rgba(142, 192, 184, 0.842);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px orangered;
+}
+.card-group{
+    height:400px;
+}
+.card img:hover{
+    box-shadow: 2px 2px 3px 5px pink;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+img#ror{
+    transform: rotate(180deg);
+}
+img#ror:hover{
+    /* transform: rotate3d(180deg); */
+    transition: all 1s;
+    transform: scale(1.1);
+    transform: rotate(180);
+}
+#oran::first-letter{
+    font-size: 50px;
+    color:orangered;
+}
+#orn::first-letter{
+    font-size: 30px;
+    color:skyblue;
+}
+#gree::first-letter{
+    font-size: 30px;
+    color:green;
+}
+#farm::first-letter{
+    font-size: 33px;
+    color:greenyellow;
+    box-shadow: 0px 0px 3px 3px orangered;
+}
+/* #tree{
+    font-size: 30px;
+    color:#2ECC71;
+} */

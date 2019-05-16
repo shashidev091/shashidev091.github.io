@@ -1,0 +1,10 @@
+
+iframe{
+    display: inline-block;
+    background-color:whitesmoke;
+    box-sizing: border-box;
+}
+.sect{
+    display: inline;
+    box-sizing: border-box;
+}
